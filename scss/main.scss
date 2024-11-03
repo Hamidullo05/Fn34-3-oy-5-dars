@@ -1,3 +1,81 @@
-@import './fonts';
-@import './hero';
-@import './normalize'
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Inter';
+}
+.container {
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.header__container {
+    display: flex;
+    margin-top: 48px;
+    align-items: center;
+    nav ul {
+        display: flex;
+        margin-left: 496px;
+        margin-right: 40px;
+        list-style: none;
+        gap: 30px ;
+        
+        
+    }
+    li {
+     
+    }
+     li a{
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 500;
+        color:  #002959;
+        gap: 5px;
+       
+        
+
+    }
+}
+button {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 18px 30px;
+    background-color: #EC6C21;
+    border: none;
+    margin-left: 40px;
+    transition: all 0.5s ;
+    cursor: pointer;
+    :hover {
+        background-color: #f66008;
+    }
+    
+    span {
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 500;
+
+    }
+}
+.hero_container  {
+    text-align: center;
+    padding-top: 140px;
+    h1 {
+        font-size: 61px;
+        font-weight: 600;
+        color: #002959;
+        margin-bottom: 40px;
+    }
+    p {
+        font-size: 19.3px;
+        font-weight: 400;
+        color: #002959;
+        margin-bottom: 50px;
+    }
+}
+.hero_img {
+    margin-top: 80px;
+}
