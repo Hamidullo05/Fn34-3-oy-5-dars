@@ -54,21 +54,49 @@ button span {
   font-weight: 500;
 }
 
-.hero_container {
+.hero__container {
   text-align: center;
   padding-top: 140px;
+  background-image: url(../images/Layer_1.png);
+  background-repeat: no-repeat;
+  background-position: 0 770px;
+  position: relative;
 }
-.hero_container h1 {
+.hero__container .img_lo {
+  position: absolute;
+  top: 300px;
+  left: 200px;
+}
+.hero__container .img_log {
+  position: absolute;
+  top: 125px;
+  right: 110px;
+}
+.hero__container h1 {
   font-size: 61px;
   font-weight: 600;
   color: #002959;
   margin-bottom: 40px;
 }
-.hero_container p {
+.hero__container p {
   font-size: 19.3px;
   font-weight: 400;
   color: #002959;
   margin-bottom: 50px;
+}
+.hero__container .button1 {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 18px 30px;
+  background-color: #EC6C21;
+  border: none;
+  margin-left: 500px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.hero__container .button1:hover {
+  background-color: #f66008;
 }
 
 .hero_img {
